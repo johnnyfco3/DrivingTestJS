@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono";
+  font-weight: 900;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.home {
+  background: url("https://static01.nyt.com/images/2020/08/04/nyregion/00nyvirus-streets11-05/merlin_174673566_632e8248-d7cb-46f8-80a2-d9e1a1f9e4c3-articleLarge.jpg?quality=75&auto=webp&disable=upscale");
+  background-size: cover;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+.flex-column h1 {
+  color: white;
+  font-size: 40px;
+}
+.flex-column p {
+  color: white;
+  padding-top: 2rem;
+}
+.flex-column a {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 1rem;
+  color: white;
+}
+.flex-column a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1.4rem 0 blue;
+}
